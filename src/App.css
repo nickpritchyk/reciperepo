@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  background-image: url(./img/final_bg.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .App-logo {
