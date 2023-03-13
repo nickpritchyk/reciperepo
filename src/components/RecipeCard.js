@@ -6,10 +6,10 @@ const RecipeCard = ({results}) => {
     return(
         results.map((item) => {
             return(
-        <Col xs={6} md={4}>
+        <Col className='mt-5' xs={6} md={4}>
             <Card className='card-hover'>
                 <Card.Img fluid className='img' variant="top" src={item.image} />
-                <Card.Body>
+                <Card.Body className='card-body'>
                     <Card.Title>{item.title}</Card.Title>
                     <Card.Text>
                         Some quick example text to build on the card title and make up the

@@ -14,6 +14,7 @@ function App() {
           <Route path="/" element={<Home />}> </Route>
           <Route path="/favorites" element={<Favorites />}> </Route>
         </Routes>
+        <div className="footer-space"></div>
         <Footer />
       </Router>
     </div>

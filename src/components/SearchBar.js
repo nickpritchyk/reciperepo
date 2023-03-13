@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { FaSearch } from 'react-icons/fa';
 import '../styles/SearchBar.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Card from "react-bootstrap/Card";
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container'
 import { Link } from 'react-router-dom'
