@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import '../styles/home.css'
 import { SearchBar } from '../components/SearchBar'
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -9,6 +10,9 @@ function Home() {
             RecipeRepo
         </h1>
         <SearchBar />
+        <p className="login-btn">
+          <Link to="/login" style={{textDecoration: 'none'}}>Log in/Register Here</Link>
+        </p>
     </div>
   )
 }
